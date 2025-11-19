@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Text View -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="📍Design Forest"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <!-- Image View -->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Login"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <!-- Username Field -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Username"
+        android:padding="10dp"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Password"
+        android:padding="10dp"/>
+
+    <!-- Login Button -->
+<Button
+    android:id="@+id/login_button"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp"
+    android:text="Login"
+    android:textSize="16sp"
+    android:textAllCaps="false"
+    android:textColor="#ffffff"/>
+
+    <!-- TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Forget Password?"
+        android:textSize="10sp"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <!-- TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Not Registered? Create Account"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>
